@@ -73,7 +73,7 @@ management_interfaces:
   description: OOB_MANAGEMENT
   shutdown: false
   vrf: MGMT
-  ip_address: 172.16.1.22/24
+  ip_address: 172.27.2.2/24
   type: oob
   gateway: 172.27.2.254
 metadata:

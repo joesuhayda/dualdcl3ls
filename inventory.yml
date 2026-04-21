@@ -9,49 +9,49 @@ all:
             DC1_SPINES:
               hosts:
                 dc1-spine1:
-                  ansible_host: 172.16.1.11
+                  ansible_host: 172.27.1.1
                 dc1-spine2:
-                  ansible_host: 172.16.1.12
+                  ansible_host: 172.27.1.2
             DC1_L3_LEAFS:
               hosts:
                 dc1-leaf1a:
-                  ansible_host: 172.16.1.101
+                  ansible_host: 172.27.1.11
                 dc1-leaf1b:
-                  ansible_host: 172.16.1.102
+                  ansible_host: 172.27.1.12
                 dc1-leaf2a:
-                  ansible_host: 172.16.1.103
+                  ansible_host: 172.27.1.13
                 dc1-leaf2b:
-                  ansible_host: 172.16.1.104
+                  ansible_host: 172.27.1.14
             DC1_L2_LEAFS:
               hosts:
                 dc1-leaf1c:
-                  ansible_host: 172.16.1.151
+                  ansible_host: 172.27.1.21
                 dc1-leaf2c:
-                  ansible_host: 172.16.1.152
+                  ansible_host: 172.27.1.22
         DC2:
           children:
             DC2_SPINES:
               hosts:
                 dc2-spine1:
-                  ansible_host: 172.16.1.21
+                  ansible_host: 172.27.2.1
                 dc2-spine2:
-                  ansible_host: 172.16.1.22
+                  ansible_host: 172.27.2.2
             DC2_L3_LEAFS:
               hosts:
                 dc2-leaf1a:
-                  ansible_host: 172.16.1.111
+                  ansible_host: 172.27.2.11
                 dc2-leaf1b:
-                  ansible_host: 172.16.1.112
+                  ansible_host: 172.27.2.12
                 dc2-leaf2a:
-                  ansible_host: 172.16.1.113
+                  ansible_host: 172.27.2.13
                 dc2-leaf2b:
-                  ansible_host: 172.16.1.114
+                  ansible_host: 172.27.2.14
             DC2_L2_LEAFS:
               hosts:
                 dc2-leaf1c:
-                  ansible_host: 172.16.1.161
+                  ansible_host: 172.27.2.21
                 dc2-leaf2c:
-                  ansible_host: 172.16.1.162
+                  ansible_host: 172.27.2.22
 
     NETWORK_SERVICES:
       children:

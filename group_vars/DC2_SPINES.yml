@@ -12,8 +12,8 @@ spine:
   nodes: # (4)!
     - name: dc2-spine1
       id: 1 # (5)!
-      mgmt_ip: 172.16.1.21/24 # (6)!
+      mgmt_ip: 172.27.2.1/24 # (6)!
 
     - name: dc2-spine2
       id: 2
-      mgmt_ip: 172.16.1.22/24
+      mgmt_ip: 172.27.2.2/24
