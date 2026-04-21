@@ -1,4 +1,4 @@
 ---
 ### group_vars/DC2.yml
 
-mgmt_gateway: 172.16.1.1 # (1)!
+mgmt_gateway: 172.27.2.254 # (1)!
